@@ -1,0 +1,201 @@
+
+
+/*Por Marco Marchi Github: MarquinCss*/
+@font-face {
+    font-family:Net;
+      src: url(net.otf)
+}
+
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+*{
+padding:0;
+Margin:0;
+text-decoration:none;
+box-sizing: border-box;
+
+}
+
+body{
+	
+background-image:url("img/fundo.png");
+object-fit:cover;
+background-size:100%;
+color:white;
+font-size:100%;
+overflow-x:hidden;
+}
+
+.cabecalho-imagem{
+position:relative;
+bottom:75px;
+
+}
+/*Por Marco Marchi Github: MarquinCss*/
+  img{
+width:170px;
+height:170px;
+position:relative;
+left:40px;
+bottom:120px;
+top:-20px;
+transition:transform .5s;
+}
+
+/*Por Marco Marchi Github: MarquinCss*/
+}
+
+h1{
+ 
+    font-size:50px;
+
+}
+
+h2{
+    font-size:40px;
+   
+   
+}
+
+/*Por Marco Marchi Github: MarquinCss*/
+    .formu {
+        width: 100%;
+        max-width: 30rem;
+        position:relative;
+		left:340px;
+		font-family: 'Gotham Black', sans-serif;
+}
+/*Por Marco Marchi Github: MarquinCss*/
+}
+
+input,textarea,button {
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+  font-family: 'Gotham Black', sans-serif;
+}
+/*Por Marco Marchi Github: MarquinCss*/
+input{
+	background-color:white;
+	width:450px;
+	height:60px;
+	font-size:20px;
+	
+}
+
+
+input:focus
+{
+  outline: none;
+  box-shadow: 0 0 0 0.110rem #00BFFF;
+}
+
+
+/*Por Marco Marchi Github: MarquinCss*/
+button {
+  border: none;
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Gotham Black', sans-serif;
+  width:200px  ;
+  height:60px  ;
+  font-size:25px;
+}
+
+button:focus {
+  outline: none;
+  background:red;
+    box-shadow: 0 0 0 0.100rem 	#800000;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: red;
+}
+
+.conteudo1{
+font-family: 'Gotham Black', sans-serif;
+  display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	font-size:50px;
+	}
+
+.conteudo2{
+font-family: 'Gotham Black', sans-serif;
+  display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	font-size:50px;
+	}
+	.conteudo3{
+font-family: 'Gotham Black', sans-serif;
+  display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	font-size:30px;
+	}
+	
+	.conteudo4{
+font-family: 'Gotham Black', sans-serif;
+  display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	font-size:18px;
+	}
+
+/*Por Marco Marchi Github: MarquinCss*/
+
+
+.email{
+	
+font-size:32px;
+}
+
+.cadastra{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+}
+
+.tudo{
+	position:relative;
+	top:30px;
+	
+}
+
+.btn{
+	position:relative;
+	left:70%;
+	bottom:400px;
+	
+	/*Por Marco Marchi Github: MarquinCss*/
+}
+
+.idiomas{
+	color:white;
+	background:black;
+	opacity:80%;
+border:2px solid white;
+width:120px;
+	height:40px;
+	font-size:15px;}
+	
+	.idiomas2{
+border-radius:5%;	
+width:100px;
+	height:40px;
+	font-size:15px;}
+	
+	
+	/*Por Marco Marchi Github: MarquinCss*/
+	
+	/*Fim*/
